@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "FlaticonBusiness";
+  src: url("../fonts/flaticon-business.html");
+  src: url("../fonts/flaticon-businessd41dd41d.html?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon-business.woff2") format("woff2"),
+       url("../fonts/flaticon-business.woff") format("woff"),
+       url("../fonts/flaticon-business.ttf") format("truetype"),
+       url("../fonts/flaticon-business.svg#FlaticonBusiness") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "FlaticonBusiness";
+    src: url("fonts/flaticon-business.html#FlaticonBusiness") format("svg");
+  }
+}
+
+[class^="flaticon-business-"]:before, [class*=" flaticon-business-"]:before,
+[class^="flaticon-business-"]:after, [class*=" flaticon-business-"]:after {   
+  font-family: "FlaticonBusiness";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1em;
+}
+
+.flaticon-business-001-folder:before { content: "\f100"; }
+.flaticon-business-002-graph:before { content: "\f101"; }
+.flaticon-business-003-chat:before { content: "\f102"; }
+.flaticon-business-004-player:before { content: "\f103"; }
+.flaticon-business-005-think:before { content: "\f104"; }
+.flaticon-business-006-target:before { content: "\f105"; }
+.flaticon-business-007-settings:before { content: "\f106"; }
+.flaticon-business-008-email:before { content: "\f107"; }
+.flaticon-business-009-newspaper:before { content: "\f108"; }
+.flaticon-business-010-startup:before { content: "\f109"; }
+.flaticon-business-011-dollar:before { content: "\f10a"; }
+.flaticon-business-012-startup:before { content: "\f10b"; }
+.flaticon-business-013-idea:before { content: "\f10c"; }
+.flaticon-business-014-magnifier:before { content: "\f10d"; }
+.flaticon-business-015-dollar:before { content: "\f10e"; }
+.flaticon-business-016-world:before { content: "\f10f"; }
+.flaticon-business-017-medal:before { content: "\f110"; }
+.flaticon-business-018-startup:before { content: "\f111"; }
+.flaticon-business-019-dollar:before { content: "\f112"; }
+.flaticon-business-020-hierarchy:before { content: "\f113"; }
+.flaticon-business-021-email:before { content: "\f114"; }
+.flaticon-business-022-scissor:before { content: "\f115"; }
+.flaticon-business-023-lifesaver:before { content: "\f116"; }
+.flaticon-business-024-configure:before { content: "\f117"; }
+.flaticon-business-025-magnifier:before { content: "\f118"; }
+.flaticon-business-026-pencil:before { content: "\f119"; }
+.flaticon-business-027-world:before { content: "\f11a"; }
+.flaticon-business-028-briefcase:before { content: "\f11b"; }
+.flaticon-business-029-tea:before { content: "\f11c"; }
+.flaticon-business-030-settings:before { content: "\f11d"; }
+.flaticon-business-031-stamp:before { content: "\f11e"; }
+.flaticon-business-032-megaphone:before { content: "\f11f"; }
+.flaticon-business-033-trophy:before { content: "\f120"; }
+.flaticon-business-034-directory:before { content: "\f121"; }
+.flaticon-business-035-helpline:before { content: "\f122"; }
+.flaticon-business-036-idea:before { content: "\f123"; }
+.flaticon-business-037-stopwatch:before { content: "\f124"; }
+.flaticon-business-038-telephone:before { content: "\f125"; }
+.flaticon-business-039-graph:before { content: "\f126"; }
+.flaticon-business-040-location:before { content: "\f127"; }
+.flaticon-business-041-cash-bag:before { content: "\f128"; }
+.flaticon-business-042-chess:before { content: "\f129"; }
+.flaticon-business-043-battery:before { content: "\f12a"; }
+.flaticon-business-044-stapler:before { content: "\f12b"; }
+.flaticon-business-045-stationery:before { content: "\f12c"; }
+.flaticon-business-046-like:before { content: "\f12d"; }
+.flaticon-business-047-eye:before { content: "\f12e"; }
+.flaticon-business-048-coin:before { content: "\f12f"; }
+.flaticon-business-049-presentation:before { content: "\f130"; }
+.flaticon-business-050-turn-off:before { content: "\f131"; }
+.flaticon-business-051-podium:before { content: "\f132"; }
+.flaticon-business-052-resume:before { content: "\f133"; }
+.flaticon-business-053-mouse:before { content: "\f134"; }
+.flaticon-business-054-graph:before { content: "\f135"; }
+.flaticon-business-055-delete:before { content: "\f136"; }
+.flaticon-business-056-clock:before { content: "\f137"; }
+.flaticon-business-057-file:before { content: "\f138"; }
+.flaticon-business-058-guidepost:before { content: "\f139"; }
+.flaticon-business-059-plant:before { content: "\f13a"; }
+.flaticon-business-060-graph:before { content: "\f13b"; }
+.flaticon-business-061-meeting:before { content: "\f13c"; }
+.flaticon-business-062-diagram:before { content: "\f13d"; }
+.flaticon-business-063-diamond:before { content: "\f13e"; }
