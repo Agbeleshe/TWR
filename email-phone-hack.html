@@ -205,7 +205,7 @@
                 <div class="contact-info-box">
                   <span class="icon lnr-icon-clock"></span>
                   <span class="title">Send Email</span>
-                  Mon - Sat 8:00 - 6:30, Sunday - CLOSED
+                  Always Open 24/7
                 </div>
               </li>
             </ul>
@@ -435,15 +435,12 @@
                 <!-- Contact Form -->
                 <div class="contact-form-two wow fadeInLeft">
                   <!--Contact Form-->
-                  <form
-                    method="post"
-                    action="https://#.com/html/2022/oitech-html/get"
-                    id="contact-form"
-                  >
+                  <form id="myForm" onsubmit="sendMail(); return false;">
                     <div class="row">
                       <div class="form-group col-lg-6 col-md-12">
                         <input
                           type="text"
+                          id="name"
                           name="full_name"
                           placeholder="Full Name"
                           required
@@ -453,7 +450,8 @@
                         <input
                           type="text"
                           name="Email"
-                          placeholder="Email Address"
+                          id="email"
+                          placeholder="Valid Email Address"
                           required
                         />
                       </div>
@@ -461,24 +459,22 @@
                         <input
                           type="text"
                           name="Phone"
-                          placeholder="Your Phone"
+                          id="phone"
+                          placeholder="Your Phone Number"
                           required
                         />
                       </div>
                       <div class="form-group col-lg-6 col-md-12">
                         <input
                           type="text"
-                          name="Phone"
-                          placeholder="Subject"
+                          name="subject"
+                          id="subject"
+                          placeholder="Describe needed service"
                           required
                         />
                       </div>
                       <div class="form-group col-lg-12 col-md-12">
-                        <button
-                          class="theme-btn btn-style-one"
-                          type="submit"
-                          name="submit-form"
-                        >
+                        <button class="theme-btn btn-style-one" type="submit">
                           <span class="btn-title">Send a message</span>
                         </button>
                       </div>

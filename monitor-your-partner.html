@@ -28,6 +28,20 @@
       href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script src="http://code.jivosite.com/widget/6fF9329rXN" async></script>
+
+    <!-- Email.Js -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("LQ0rsFRpxCOvO1wLz");
+      })();
+    </script>
+    <!-- End email.Js -->
+
+    <script src="../elitewizardrecovery.com/js/submitemail.js"></script>
   </head>
 
   <body>
@@ -203,7 +217,7 @@
                 <div class="contact-info-box">
                   <span class="icon lnr-icon-clock"></span>
                   <span class="title">Send Email</span>
-                  Mon - Sat 8:00 - 6:30, Sunday - CLOSED
+                  Always Open 24/7
                 </div>
               </li>
             </ul>
@@ -260,8 +274,9 @@
               <!--Logo-->
               <div class="logo">
                 <a href="index-2.html" title=""
-                  ><img src="images/logo-2.png" alt="" title=""
+                  ><img height="200px" width="50px" src="images/favicon.png"
                 /></a>
+                <span style="font-weight: bolder">T.W Recovery</span>
               </div>
 
               <!--Right Col-->
@@ -431,15 +446,15 @@
                 <!-- Contact Form -->
                 <div class="contact-form-two wow fadeInLeft">
                   <!--Contact Form-->
-                  <form
-                    method="post"
-                    action="https://#.com/html/2022/oitech-html/get"
-                    id="contact-form"
-                  >
+                  <!-- method="post"
+                  action="https://#.com/html/2022/oitech-html/get"
+                  id="contact-form" -->
+                  <form id="myForm" onsubmit="sendMail(); return false;">
                     <div class="row">
                       <div class="form-group col-lg-6 col-md-12">
                         <input
                           type="text"
+                          id="name"
                           name="full_name"
                           placeholder="Full Name"
                           required
@@ -449,7 +464,8 @@
                         <input
                           type="text"
                           name="Email"
-                          placeholder="Email Address"
+                          id="email"
+                          placeholder="Valid Email Address"
                           required
                         />
                       </div>
@@ -457,25 +473,23 @@
                         <input
                           type="text"
                           name="Phone"
-                          placeholder="Your Phone"
+                          id="phone"
+                          placeholder="Your Phone Number"
                           required
                         />
                       </div>
                       <div class="form-group col-lg-6 col-md-12">
                         <input
                           type="text"
-                          name="Phone"
-                          placeholder="Subject"
+                          name="subject"
+                          id="subject"
+                          placeholder="Describe needed service"
                           required
                         />
                       </div>
                       <div class="form-group col-lg-12 col-md-12">
-                        <button
-                          class="theme-btn btn-style-one"
-                          type="submit"
-                          name="submit-form"
-                        >
-                          <span class="btn-title">Send a message</span>
+                        <button class="theme-btn btn-style-one" type="submit">
+                          <span class="btn-title">Send a message</span> 
                         </button>
                       </div>
                     </div>
@@ -608,9 +622,9 @@
     <script src="js/script.js"></script>
 
     <!-- form submit -->
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/jquery.form.min.js"></script>
-    <script>
+    <!-- <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.form.min.js"></script> -->
+    <!-- <script>
       (function ($) {
         $("#contact_form").validate({
           submitHandler: function (form) {
@@ -638,7 +652,7 @@
           },
         });
       })(jQuery);
-    </script>
+    </script> -->
   </body>
 
   <!-- Mirrored from #.com/html/2022/oitech-html/shop-product-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Oct 2023 10:25:31 GMT -->
