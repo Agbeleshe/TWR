@@ -8,7 +8,7 @@ function sendMail() {
     const originalButtonText = sendButton.textContent;
   
     // Change the button content to "Loading"
-    sendButton.textContent = 'Loading...';
+    sendButton.textContent = 'Please wait, Loading...';
   
     console.log("hello world");
     let parms = {
