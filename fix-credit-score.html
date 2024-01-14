@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from #.com/html/2022/oitech-html/shop-product-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Oct 2023 10:25:30 GMT -->
+<!-- Mirrored from #.com/html/2022/Team William Recovery-html/shop-product-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Oct 2023 10:25:30 GMT -->
 
 <!-- Mirrored from teamwilliamwizardrecovery.com/fix-credit-score.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 07:39:22 GMT -->
 <head>
@@ -25,6 +25,19 @@
 <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="http://code.jivosite.com/widget/6fF9329rXN" async></script>
 
+    <!-- Email.Js -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("6yZ0mPkTHzjsaKHqU");
+      })();
+    </script>
+    <!-- End email.Js -->
+      <script src="/js/submitemail.js"></script>
+
 </head>
 
 <body>
@@ -43,7 +56,7 @@
 				<div class="top-left">
 					<!-- Info List -->
 					<ul class="list-style-one">
-						<li><i class="fa fa-envelope"></i> <a href="mailto:mailus@teamwilliamwizardrecovery.com">mailus@teamwilliamwizardrecovery.com</a></li>
+						<li><i class="fa fa-envelope"></i> <a href="mailto:support@teamwilliamrecovery.com">support@teamwilliamrecovery.com</a></li>
 						<li><i class="fa fa-map-marker"></i> 4400 Thane Rd, Juneau, AL 99801, USA</li>
 					</ul>
 				</div>
@@ -73,7 +86,7 @@
 			<!-- Main box -->
 			<div class="main-box">
 				<div class="logo-box">
-					<div class="logo"><a href="index-2.html"><img height="150px" width="150px" src="images/logo.png" alt="" title="Oitech"></a></div>
+					<div class="logo"><a href="index-2.html"><img height="150px" width="150px" src="images/logo.png" alt="" title="Team William Recovery"></a></div>
 				</div>
 
 				<!--Nav Box-->
@@ -152,7 +165,7 @@
 						<div class="contact-info-box">
 							<span class="icon lnr-icon-envelope1"></span>
 							<span class="title">Send Email</span>
-							<a href="mailto:mailus@teamwilliamwizardrecovery.com">mailus@teamwilliamwizardrecovery.com</a>
+							<a href="mailto:support@teamwilliamrecovery.com">support@teamwilliamrecovery.com</a>
 						</div>
 					</li>
 					<li>
@@ -181,7 +194,7 @@
 			<button class="close-search"><span class="fa fa-times"></span></button>
 
 			<div class="search-inner">
-				<form method="post" action="https://#.com/html/2022/oitech-html/index.html">
+				<form method="post" action="https://#.com/html/2022/Team William Recovery-html/index.html">
 					<div class="form-group">
 						<input type="search" name="search-field" value="" placeholder="Search..." required="">
 						<button type="submit"><i class="fa fa-search"></i></button>
@@ -197,8 +210,18 @@
 				<div class="inner-container">
 					<!--Logo-->
 					<div class="logo">
-						<a href="index-2.html" title=""><img src="images/logo-2.png" alt="" title=""></a>
-					</div>
+						<a href="index-2.html" title=""
+						  ><img
+							height="200px"
+							width="50px"
+							src="images/favicon.png"
+							alt=""
+							title=""
+						/></a>
+						<span style="color: rgb(180, 180, 180); font-weight: bolder"
+						  >T.W Recovery</span
+						>
+					  </div>
 
 					<!--Right Col-->
 					<div class="nav-outer">
@@ -331,32 +354,57 @@
 							<span class="sub-title">William Mercado Recovery and Ethical Hack</span>
 							<h2>Hire A Hacker Now!</h2>
 							<div class="text">Our platform has facilitated successful connections between over 190,322 clients and hackers from 100 countries, regions, and territories worldwide.
-
-</div>
+						</div>
 						</div>
 
 						<!-- Contact Form -->
 						<div class="contact-form-two wow fadeInLeft">
-							<!--Contact Form-->
-							<form method="post" action="https://#.com/html/2022/oitech-html/get" id="contact-form">
+							   <!--Contact Form-->
+							   <form id="myForm" onsubmit="sendMail(); return false;">
 								<div class="row">
-									<div class="form-group col-lg-6 col-md-12">
-										<input type="text" name="full_name" placeholder="Full Name" required>
-									</div>
-									<div class="form-group col-lg-6 col-md-12">
-										<input type="text" name="Email" placeholder="Email Address" required>
-									</div>
-									<div class="form-group col-lg-6 col-md-12">
-										<input type="text" name="Phone" placeholder="Your Phone" required>
-									</div>
-									<div class="form-group col-lg-6 col-md-12">
-										<input type="text" name="Phone" placeholder="Subject" required>
-									</div>
-									<div class="form-group col-lg-12 col-md-12">
-										<button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Send a message</span></button>
-									</div>
+								  <div class="form-group col-lg-6 col-md-12">
+									<input
+									  type="text"
+									  id="name"
+									  name="full_name"
+									  placeholder="Full Name"
+									  required
+									/>
+								  </div>
+								  <div class="form-group col-lg-6 col-md-12">
+									<input
+									  type="text"
+									  name="Email"
+									  id="email"
+									  placeholder="Valid Email Address"
+									  required
+									/>
+								  </div>
+								  <div class="form-group col-lg-6 col-md-12">
+									<input
+									  type="text"
+									  name="Phone"
+									  id="phone"
+									  placeholder="Your Phone Number"
+									  required
+									/>
+								  </div>
+								  <div class="form-group col-lg-6 col-md-12">
+									<input
+									  type="text"
+									  name="subject"
+									  id="subject"
+									  placeholder="Describe needed service"
+									  required
+									/>
+								  </div>
+								  <div class="form-group col-lg-12 col-md-12">
+									<button class="theme-btn btn-style-one" type="submit">
+									  <span class="btn-title">Send a message</span>
+									</button>
+								  </div>
 								</div>
-							</form>
+							  </form>
 						</div>
 						<!--End Contact Form -->
 					</div>
@@ -408,7 +456,7 @@
 							<div class="widget-content">
 								<div class="text">4400 Thane Rd, Juneau, AL 99801, USA</div>
 								<ul class="contact-info">
-									<li><i class="fa fa-envelope"></i> <a href="mailto:mailus@teamwilliamwizardrecovery.com">mailus@teamwilliamwizardrecovery.com</a><br></li>
+									<li><i class="fa fa-envelope"></i> <a href="mailto:support@teamwilliamrecovery.com">support@teamwilliamrecovery.com</a><br></li>
 									<li><i class="fa fa-telegram"></i> teamwilliamwizardbitcoinrecovery</li>
 									<li><i class="fa fa-phone"></i> <a href="tel:+1 xxx xxx xxxx">+1 xxx xxx xxxx  </a><br></li>
 								</ul>
@@ -461,7 +509,7 @@
 <script src="js/script.js"></script>
 
 <!-- form submit -->
-<script src="js/jquery.validate.min.js"></script>
+<!-- <script src="js/jquery.validate.min.js"></script>
 <script src="js/jquery.form.min.js"></script>
 <script>
 	(function($) {
@@ -487,10 +535,10 @@
 			}
 		});
 	})(jQuery);
-</script>
+</script> -->
 </body>
 
-<!-- Mirrored from #.com/html/2022/oitech-html/shop-product-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Oct 2023 10:25:31 GMT -->
+<!-- Mirrored from #.com/html/2022/Team William Recovery-html/shop-product-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Oct 2023 10:25:31 GMT -->
 
 <!-- Mirrored from teamwilliamwizardrecovery.com/fix-credit-score.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 07:39:22 GMT -->
 </html>
